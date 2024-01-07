@@ -1,5 +1,5 @@
 
-# Title Of Your Project
+# Amazon Products Streaming
 Add a catchy title to your project. Something that people immediately know what you are doing
 
 # Introduction & Goals
