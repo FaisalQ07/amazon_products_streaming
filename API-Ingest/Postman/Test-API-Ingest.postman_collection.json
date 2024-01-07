@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "bcf87325-5a8f-4614-8e6d-b6188853aca6",
+		"name": "Test-API-Ingest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1946890"
+	},
+	"item": [
+		{
+			"name": "Test AmazonProducts Validation - Good original",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"asin\": \"B014TMV5YE\",\r\n    \"title\": \"Sion Softside Expandable Roller Luggage, Black, Checked-Large 29-Inch\",\r\n    \"imgUrl\": \"https:\\/\\/m.media-amazon.com\\/images\\/I\\/815dLQKYIYL._AC_UL320_.jpg\",\r\n    \"productURL\": \"https:\\/\\/www.amazon.com\\/dp\\/B014TMV5YE\",\r\n    \"stars\": 4.5,\r\n    \"reviews\": 0,\r\n    \"price\": 139.99,\r\n    \"listPrice\": 0.0,\r\n    \"category_id\": 104,\r\n    \"isBestSeller\": false,\r\n    \"boughtInLastMonth\": 2000,\r\n    \"date\": \"31\\/12\\/2023 00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/AmazonProducts",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"AmazonProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test AmazonProducts Date Validation - Bad date",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"asin\": \"B014TMV5YE\",\r\n    \"title\": \"Sion Softside Expandable Roller Luggage, Black, Checked-Large 29-Inch\",\r\n    \"imgUrl\": \"https:\\/\\/m.media-amazon.com\\/images\\/I\\/815dLQKYIYL._AC_UL320_.jpg\",\r\n    \"productURL\": \"https:\\/\\/www.amazon.com\\/dp\\/B014TMV5YE\",\r\n    \"stars\": 4.5,\r\n    \"reviews\": 0,\r\n    \"price\": 139.99,\r\n    \"listPrice\": 0.0,\r\n    \"category_id\": 104,\r\n    \"isBestSeller\": false,\r\n    \"boughtInLastMonth\": 2000,\r\n    \"date\": \"31\\/12\\/2023 00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/AmazonProducts",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"AmazonProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Categories Validation - Good original",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"category_name\": \"Beading & Jewelry Making\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/Categories",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"Categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Categories Validation - Bad id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"category_name\": \"Beading & Jewelry Making\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/Categories",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"Categories"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

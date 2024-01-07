@@ -1,0 +1,248 @@
+{"id":1,"category_name":"Beading & Jewelry Making"}
+{"id":2,"category_name":"Fabric Decorating"}
+{"id":3,"category_name":"Knitting & Crochet Supplies"}
+{"id":4,"category_name":"Printmaking Supplies"}
+{"id":5,"category_name":"Scrapbooking & Stamping Supplies"}
+{"id":6,"category_name":"Sewing Products"}
+{"id":7,"category_name":"Craft & Hobby Fabric"}
+{"id":8,"category_name":"Needlework Supplies"}
+{"id":9,"category_name":"Arts, Crafts & Sewing Storage"}
+{"id":10,"category_name":"Painting, Drawing & Art Supplies"}
+{"id":11,"category_name":"Craft Supplies & Materials"}
+{"id":12,"category_name":"Gift Wrapping Supplies"}
+{"id":13,"category_name":"Party Decorations"}
+{"id":14,"category_name":"Automotive Paint & Paint Supplies"}
+{"id":15,"category_name":"Heavy Duty & Commercial Vehicle Equipment"}
+{"id":16,"category_name":"Automotive Tires & Wheels"}
+{"id":17,"category_name":"Automotive Tools & Equipment"}
+{"id":18,"category_name":"Automotive Performance Parts & Accessories"}
+{"id":19,"category_name":"Car Care"}
+{"id":20,"category_name":"Oils & Fluids"}
+{"id":21,"category_name":"Automotive Replacement Parts"}
+{"id":22,"category_name":"Lights, Bulbs & Indicators"}
+{"id":23,"category_name":"Automotive Interior Accessories"}
+{"id":24,"category_name":"Automotive Exterior Accessories"}
+{"id":25,"category_name":"Automotive Enthusiast Merchandise"}
+{"id":26,"category_name":"Car Electronics & Accessories"}
+{"id":27,"category_name":"RV Parts & Accessories"}
+{"id":28,"category_name":"Motorcycle & Powersports"}
+{"id":29,"category_name":"Baby Diapering Products"}
+{"id":30,"category_name":"Baby & Toddler Feeding Supplies"}
+{"id":31,"category_name":"Pregnancy & Maternity Products"}
+{"id":32,"category_name":"Child Safety Car Seats & Accessories"}
+{"id":33,"category_name":"Baby Safety Products"}
+{"id":34,"category_name":"Toilet Training Products"}
+{"id":35,"category_name":"Baby Care Products"}
+{"id":36,"category_name":"Baby Travel Gear"}
+{"id":38,"category_name":"Baby Activity & Entertainment Products"}
+{"id":39,"category_name":"Baby Gifts"}
+{"id":40,"category_name":"Baby Stationery"}
+{"id":41,"category_name":"Nursery Furniture, Bedding & D\u00e9cor"}
+{"id":42,"category_name":"Baby"}
+{"id":43,"category_name":"Baby Boys' Clothing & Shoes"}
+{"id":44,"category_name":"Baby Strollers & Accessories"}
+{"id":45,"category_name":"Beauty & Personal Care"}
+{"id":46,"category_name":"Perfumes & Fragrances"}
+{"id":47,"category_name":"Hair Care Products"}
+{"id":48,"category_name":"Makeup"}
+{"id":49,"category_name":"Skin Care Products"}
+{"id":50,"category_name":"Beauty Tools & Accessories"}
+{"id":51,"category_name":"Foot, Hand & Nail Care Products"}
+{"id":52,"category_name":"Personal Care Products"}
+{"id":53,"category_name":"Shaving & Hair Removal Products"}
+{"id":54,"category_name":"Computer Servers"}
+{"id":55,"category_name":"Data Storage"}
+{"id":56,"category_name":"Computer Monitors"}
+{"id":57,"category_name":"Computers & Tablets"}
+{"id":58,"category_name":"Tablet Replacement Parts"}
+{"id":60,"category_name":"Computer Networking"}
+{"id":63,"category_name":"Computer Components"}
+{"id":64,"category_name":"Tablet Accessories"}
+{"id":65,"category_name":"Laptop Accessories"}
+{"id":66,"category_name":"Computer External Components"}
+{"id":68,"category_name":"Wearable Technology"}
+{"id":69,"category_name":"Televisions & Video Products"}
+{"id":70,"category_name":"GPS & Navigation"}
+{"id":71,"category_name":"Headphones & Earbuds"}
+{"id":72,"category_name":"Office Electronics"}
+{"id":73,"category_name":"Portable Audio & Video"}
+{"id":74,"category_name":"eBook Readers & Accessories"}
+{"id":75,"category_name":"Cell Phones & Accessories"}
+{"id":76,"category_name":"Accessories & Supplies"}
+{"id":77,"category_name":"Video Projectors"}
+{"id":78,"category_name":"Vehicle Electronics"}
+{"id":79,"category_name":"Camera & Photo"}
+{"id":80,"category_name":"Security & Surveillance Equipment"}
+{"id":81,"category_name":"Computers"}
+{"id":82,"category_name":"Home Audio & Theater Products"}
+{"id":83,"category_name":"Video Game Consoles & Accessories"}
+{"id":84,"category_name":"Boys' Clothing"}
+{"id":87,"category_name":"Boys' Accessories"}
+{"id":88,"category_name":"Boys' Jewelry"}
+{"id":89,"category_name":"Boys' Watches"}
+{"id":90,"category_name":"Boys' Shoes"}
+{"id":91,"category_name":"Girls' Clothing"}
+{"id":94,"category_name":"Girls' Accessories"}
+{"id":95,"category_name":"Girls' Jewelry"}
+{"id":96,"category_name":"Girls' Watches"}
+{"id":97,"category_name":"Girls' Shoes"}
+{"id":98,"category_name":"Girls' School Uniforms"}
+{"id":99,"category_name":"Travel Duffel Bags"}
+{"id":100,"category_name":"Messenger Bags"}
+{"id":101,"category_name":"Travel Tote Bags"}
+{"id":102,"category_name":"Garment Bags"}
+{"id":103,"category_name":"Luggage Sets"}
+{"id":104,"category_name":"Suitcases"}
+{"id":105,"category_name":"Travel Accessories"}
+{"id":106,"category_name":"Rain Umbrellas"}
+{"id":107,"category_name":"Backpacks"}
+{"id":108,"category_name":"Luggage"}
+{"id":109,"category_name":"Laptop Bags"}
+{"id":110,"category_name":"Men's Clothing"}
+{"id":112,"category_name":"Men's Accessories"}
+{"id":113,"category_name":"Men's Watches"}
+{"id":114,"category_name":"Men's Shoes"}
+{"id":116,"category_name":"Women's Clothing"}
+{"id":118,"category_name":"Women's Handbags"}
+{"id":120,"category_name":"Women's Accessories"}
+{"id":121,"category_name":"Women's Watches"}
+{"id":122,"category_name":"Women's Shoes"}
+{"id":123,"category_name":"Women's Jewelry"}
+{"id":124,"category_name":"Kids' Furniture"}
+{"id":125,"category_name":"Gift Cards"}
+{"id":126,"category_name":"Oral Care Products"}
+{"id":127,"category_name":"Vision Products"}
+{"id":128,"category_name":"Wellness & Relaxation Products"}
+{"id":129,"category_name":"Baby & Child Care Products"}
+{"id":130,"category_name":"Household Supplies"}
+{"id":131,"category_name":"Health Care Products"}
+{"id":132,"category_name":"Diet & Sports Nutrition"}
+{"id":133,"category_name":"Home Use Medical Supplies & Equipment"}
+{"id":134,"category_name":"Sexual Wellness Products"}
+{"id":135,"category_name":"Health & Household"}
+{"id":136,"category_name":"Sports Nutrition Products"}
+{"id":137,"category_name":"Stationery & Gift Wrapping Supplies"}
+{"id":138,"category_name":"Commercial Door Products"}
+{"id":139,"category_name":"Power Transmission Products"}
+{"id":140,"category_name":"Industrial Materials"}
+{"id":141,"category_name":"Industrial Hardware"}
+{"id":142,"category_name":"Abrasive & Finishing Products"}
+{"id":143,"category_name":"Industrial Adhesives, Sealants & Lubricants"}
+{"id":144,"category_name":"Material Handling Products"}
+{"id":145,"category_name":"Test, Measure & Inspect"}
+{"id":146,"category_name":"Industrial Power & Hand Tools"}
+{"id":147,"category_name":"Hydraulics, Pneumatics & Plumbing"}
+{"id":148,"category_name":"Filtration"}
+{"id":149,"category_name":"Electronic Components"}
+{"id":150,"category_name":"Lab & Scientific Products"}
+{"id":151,"category_name":"Janitorial & Sanitation Supplies"}
+{"id":152,"category_name":"Occupational Health & Safety Products"}
+{"id":153,"category_name":"Cutting Tools"}
+{"id":154,"category_name":"Fasteners"}
+{"id":155,"category_name":"Science Education Supplies"}
+{"id":156,"category_name":"Food Service Equipment & Supplies"}
+{"id":157,"category_name":"Additive Manufacturing Products"}
+{"id":158,"category_name":"Professional Medical Supplies"}
+{"id":159,"category_name":"Professional Dental Supplies"}
+{"id":160,"category_name":"Packaging & Shipping Supplies"}
+{"id":161,"category_name":"Retail Store Fixtures & Equipment"}
+{"id":162,"category_name":"Industrial & Scientific"}
+{"id":163,"category_name":"Bath Products"}
+{"id":164,"category_name":"Bedding"}
+{"id":165,"category_name":"Home D\u00e9cor Products"}
+{"id":166,"category_name":"Furniture"}
+{"id":167,"category_name":"Household Cleaning Supplies"}
+{"id":168,"category_name":"Seasonal D\u00e9cor"}
+{"id":169,"category_name":"Home Lighting & Ceiling Fans"}
+{"id":170,"category_name":"Kitchen & Dining"}
+{"id":171,"category_name":"Heating, Cooling & Air Quality"}
+{"id":172,"category_name":"Kids' Home Store"}
+{"id":173,"category_name":"Home Storage & Organization"}
+{"id":174,"category_name":"Wall Art"}
+{"id":175,"category_name":"Vacuum Cleaners & Floor Care"}
+{"id":176,"category_name":"Ironing Products"}
+{"id":177,"category_name":"Party Supplies"}
+{"id":178,"category_name":"Pet Bird Supplies"}
+{"id":179,"category_name":"Cat Supplies"}
+{"id":180,"category_name":"Dog Supplies"}
+{"id":181,"category_name":"Fish & Aquatic Pets"}
+{"id":182,"category_name":"Horse Supplies"}
+{"id":183,"category_name":"Reptiles & Amphibian Supplies"}
+{"id":184,"category_name":"Small Animal Supplies"}
+{"id":185,"category_name":"Smart Home: New Smart Devices"}
+{"id":186,"category_name":"Smart Home: Voice Assistants and Hubs"}
+{"id":187,"category_name":"Smart Home: Smart Locks and Entry"}
+{"id":188,"category_name":"Smart Home: Home Entertainment"}
+{"id":189,"category_name":"Smart Home: WiFi and Networking"}
+{"id":190,"category_name":"Smart Home: Security Cameras and Systems"}
+{"id":191,"category_name":"Smart Home: Lighting"}
+{"id":192,"category_name":"Smart Home: Plugs and Outlets"}
+{"id":193,"category_name":"Smart Home: Vacuums and Mops"}
+{"id":194,"category_name":"Smart Home Thermostats - Compatibility Checker"}
+{"id":195,"category_name":"Smart Home: Lawn and Garden"}
+{"id":196,"category_name":"Smart Home: Other Solutions"}
+{"id":197,"category_name":"Smart Home - Heating & Cooling"}
+{"id":198,"category_name":"Sports & Fitness"}
+{"id":199,"category_name":"Outdoor Recreation"}
+{"id":200,"category_name":"Sports & Outdoors"}
+{"id":201,"category_name":"Home Appliances"}
+{"id":203,"category_name":"Pumps & Plumbing Equipment"}
+{"id":204,"category_name":"Paint, Wall Treatments & Supplies"}
+{"id":205,"category_name":"Safety & Security"}
+{"id":206,"category_name":"Light Bulbs"}
+{"id":207,"category_name":"Power Tools & Hand Tools"}
+{"id":208,"category_name":"Kitchen & Bath Fixtures"}
+{"id":209,"category_name":"Lighting & Ceiling Fans"}
+{"id":210,"category_name":"Electrical Equipment"}
+{"id":211,"category_name":"Hardware"}
+{"id":212,"category_name":"Building Supplies"}
+{"id":213,"category_name":"Measuring & Layout"}
+{"id":214,"category_name":"Welding & Soldering"}
+{"id":215,"category_name":"Tools & Home Improvement"}
+{"id":216,"category_name":"Kids' Party Supplies"}
+{"id":217,"category_name":"Toy Figures & Playsets"}
+{"id":218,"category_name":"Novelty Toys & Amusements"}
+{"id":219,"category_name":"Arts & Crafts Supplies"}
+{"id":220,"category_name":"Building Toys"}
+{"id":221,"category_name":"Dolls & Accessories"}
+{"id":222,"category_name":"Kids' Electronics"}
+{"id":223,"category_name":"Games & Accessories"}
+{"id":224,"category_name":"Learning & Education Toys"}
+{"id":225,"category_name":"Kids' Dress Up & Pretend Play"}
+{"id":226,"category_name":"Puppets & Puppet Theaters"}
+{"id":227,"category_name":"Puzzles"}
+{"id":228,"category_name":"Sports & Outdoor Play Toys"}
+{"id":229,"category_name":"Stuffed Animals & Plush Toys"}
+{"id":230,"category_name":"Baby & Toddler Toys"}
+{"id":231,"category_name":"Tricycles, Scooters & Wagons"}
+{"id":232,"category_name":"Finger Toys"}
+{"id":233,"category_name":"Toy Vehicle Playsets"}
+{"id":234,"category_name":"Kids' Play Trains & Trams"}
+{"id":235,"category_name":"Kids' Play Trucks"}
+{"id":236,"category_name":"Kids' Play Cars & Race Cars"}
+{"id":237,"category_name":"Kids' Play Boats"}
+{"id":238,"category_name":"Kids' Play Buses"}
+{"id":239,"category_name":"Kids' Play Tractors"}
+{"id":240,"category_name":"Slot Cars, Race Tracks & Accessories"}
+{"id":241,"category_name":"Sony PSP Games, Consoles & Accessories"}
+{"id":242,"category_name":"Nintendo DS Games, Consoles & Accessories"}
+{"id":243,"category_name":"PlayStation 3 Games, Consoles & Accessories"}
+{"id":244,"category_name":"Wii Games, Consoles & Accessories"}
+{"id":245,"category_name":"Xbox 360 Games, Consoles & Accessories"}
+{"id":248,"category_name":"Mac Games & Accessories"}
+{"id":249,"category_name":"Nintendo 3DS & 2DS Consoles, Games & Accessories"}
+{"id":250,"category_name":"Legacy Systems"}
+{"id":251,"category_name":"PlayStation Vita Games, Consoles & Accessories"}
+{"id":252,"category_name":"Wii U Games, Consoles & Accessories"}
+{"id":253,"category_name":"PlayStation 4 Games, Consoles & Accessories"}
+{"id":254,"category_name":"Xbox One Games, Consoles & Accessories"}
+{"id":255,"category_name":"Video Games"}
+{"id":256,"category_name":"Online Video Game Services"}
+{"id":259,"category_name":"Virtual Reality Hardware & Accessories"}
+{"id":260,"category_name":"Nintendo Switch Consoles, Games & Accessories"}
+{"id":261,"category_name":"PlayStation 5 Consoles, Games & Accessories"}
+{"id":262,"category_name":"Xbox Series X & S Consoles, Games & Accessories"}
+{"id":263,"category_name":"PC Games & Accessories"}
+{"id":264,"category_name":"Baby Girls' Clothing & Shoes"}
+{"id":265,"category_name":"Boys' School Uniforms"}
+{"id":270,"category_name":"Toys & Games"}
