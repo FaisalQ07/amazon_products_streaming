@@ -18,11 +18,11 @@ from kafka import KafkaProducer, producer
 
 # Create class (schema) for the JSON
 # Date get's ingested as string and then before writing validated
-class Categories(BaseModel):
+class Category(BaseModel):
     id: int
     category_name: str
 
-class AmazonProducts(BaseModel):
+class AmazonProduct(BaseModel):
      asin: str
      title: str
      imgUrl: str
@@ -46,18 +46,22 @@ app = FastAPI()
 async def root():
     return {"message": "Hello World"}
 
-@app.post("/Categories")
-async def post_categories_item(item: Categories):
+@app.post("/Category")
+async def post_categories_item(item: Category):
      print("Message received")
      try:
           json_of_item = jsonable_encoder(item)
+          # Dump the json out as string
+          json_as_string = json.dumps(json_of_item)
+          print(json_as_string)
+          produce_kafka_string(json_as_string, 'category')
           return JSONResponse(content=json_of_item, status_code=201)
      except ValueError:
         return JSONResponse(content=jsonable_encoder(item), status_code=400)
 
 # Add a new Amazon Product
-@app.post("/AmazonProducts")
-async def post_products_item(item: AmazonProducts): #body awaits a json with invoice item information
+@app.post("/AmazonProduct")
+async def post_products_item(item: AmazonProduct): #body awaits a json with invoice item information
     print("Message received")
     try:
         # Evaluate the timestamp and parse it to datetime object you can work with
@@ -78,7 +82,7 @@ async def post_products_item(item: AmazonProducts): #body awaits a json with inv
         print(json_as_string)
         
         # Produce the string
-        # produce_kafka_string(json_as_string)
+        produce_kafka_string(json_as_string, 'product')
 
         # Encode the created customer item if successful into a JSON and return it to the client with 201
         return JSONResponse(content=json_of_item, status_code=201)
@@ -89,10 +93,13 @@ async def post_products_item(item: AmazonProducts): #body awaits a json with inv
         return JSONResponse(content=jsonable_encoder(item), status_code=400)
         
 
-def produce_kafka_string(json_as_string):
+def produce_kafka_string(json_as_string, type):
     # Create producer
-        producer = KafkaProducer(bootstrap_servers='kafka:9092',acks=1)
+        producer = KafkaProducer(bootstrap_servers='localhost:9093',acks=1)
         
         # Write the string as bytes because Kafka needs it this way
-        producer.send('ingestion-topic', bytes(json_as_string, 'utf-8'))
+        if type == 'product':
+             producer.send('ingest-product', bytes(json_as_string, 'utf-8'))
+        elif type == 'category':
+             producer.send('ingest-category', bytes(json_as_string, 'utf-8'))
         producer.flush() 
