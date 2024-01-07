@@ -1,8 +1,9 @@
 import os
+import glob
 import numpy as np
 import pandas as pd
 from numpy import add
-import glob
+
 
 
 for filepath in glob.iglob('../dataset/input/*.csv'):
@@ -12,6 +13,10 @@ for filepath in glob.iglob('../dataset/input/*.csv'):
     head, tail = os.path.split(filepath)
     filename = tail.split('.')[0]
     df = pd.read_csv(filepath)
+    if filename == 'amazon_products_small':
+        # add string date column for last day of the year
+        print('---------------- adding date -------------------')
+        df['date'] = '31/12/2023 00:00'
 
     # add a json column to the dataframe
     # splitlines will split the json into multiple rows not a single one
