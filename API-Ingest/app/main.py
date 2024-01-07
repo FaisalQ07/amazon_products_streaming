@@ -95,7 +95,7 @@ async def post_products_item(item: AmazonProduct): #body awaits a json with invo
 
 def produce_kafka_string(json_as_string, type):
     # Create producer
-        producer = KafkaProducer(bootstrap_servers='localhost:9093',acks=1)
+        producer = KafkaProducer(bootstrap_servers='kafka:9092',acks=1)
         
         # Write the string as bytes because Kafka needs it this way
         if type == 'product':
