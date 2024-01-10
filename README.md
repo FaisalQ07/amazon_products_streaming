@@ -123,9 +123,17 @@ The detailed stages of the stream processing are demonstrated in the image below
     
 
 ### Buffer Data Stream  
-- Setup Kafka
+- Setup Docker for Kafka
     * Kafka container is run by executing the command `docker-compose -f docker-compose-kafka.yml up`
-    * 
+- Create Topics for Kafka
+    * Connect to the kafka shell. Using VSCode, you can use the docker blade to attach termial to shell
+      ![attach_shell_image](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/attach_shell_to_kafka.png)
+    * Navigate to the folder /op/bitnami/kafka/bin
+    * Check if any topics exist by using `./kafka-topics.sh --list --bootstrap-server localhost:9092`
+    * Create new topics for ingesting product and customer data streams using commands:
+        * `./kafka-topics.sh --create --topic ingest-product --bootstrap-server localhost:9092`
+        * `./kafka-topics.sh --create --topic ingest-category --bootstrap-server localhost:9092`
+        ![kafka topics_created](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/kafka_topics_created.PNG)
 ### Processing Data Stream
 ### Storing Data Stream
 ## Visualizations
