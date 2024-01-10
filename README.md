@@ -166,7 +166,12 @@ The detailed stages of the stream processing are demonstrated in the image below
     * Run `docker-compose -f docker-compose-kafka-spark-mongodb.yml up`
     * Go to `localhost:8081` and enter the admin and password as configured in yml file, under mongo-express
     * Create a Database called docstreaming and create a collection for category and product to store all the records from Spark streaming
-      ![mongodb_collection](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_database_collection.png)  
+      ![mongodb_collection](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_database_collection.png)
+- Connect Spark to MongoDB
+    * Go to [stream-src-kafka-dst-mongodb.ipynb](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/ApacheSpark/stream-src-kafka-dst-mongodb.ipynb)
+    * Note code block 8 adds a dataframe transformation to set the output table in MongoDB
+    * Execute the notebook then go to Postman and post a record. Check to see that it appeared in the MongoDB collection properly
+      ![mongodb doc added](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_coll_doc_added.PNG)
 ## Visualizations
 
 # Demo
