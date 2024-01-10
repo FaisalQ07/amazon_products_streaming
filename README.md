@@ -1,5 +1,5 @@
 
-# Stream Processing of Amazon Products information to identify trends and patterns 
+# Stream Processing of Amazon Products Information to Identify Trends and Patterns 
 
 # Introduction & Goals
 - The primary goal of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.  
