@@ -101,7 +101,9 @@ It is an open-source Python library that supports several different charting lib
 The detailed stages of the stream processing are demonstrated in the image below:  
 ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/stream_process.png)  
 
-### Data Preparation
+### Data Preparation  
+- The Kaggle csv files in */dataset/input/* are trasformed into JSON files using the script */client/transformer.py* and placed under */dataset/output/*
+
 ### API Creation
 ### Buffer Data Stream
 ### Processing Data Stream
