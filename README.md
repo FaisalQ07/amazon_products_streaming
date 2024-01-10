@@ -151,9 +151,14 @@ The detailed stages of the stream processing are demonstrated in the image below
 - Check the network for the Kafka container (in my case it's amazon-products-streaming_default)
   ![kafka_network](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/kafka_network.png)  
 - Open a new terminal and execute, `docker run --rm --network amazon-products-streaming_default --name my-api-ingest -p 80:80 api-ingest`
-- Once the API, API-Ingest is started in docker, test the kafka and API as was done in step __Buffer Data Stream__  
+- Once the API, API-Ingest is started in docker, test the kafka and API as was done in step __Buffer Data Stream__ . Make sure to change the port from *8000* to *80* in Postman.
     
 ### Processing Data Stream  
+- Setup Spark and Jupter for Docker
+    * Spark container is added to docker by running the command `docker-compose -f docker-compose-kafka-spark.yml up`
+    * Once the container is running, go to view logs to get the token
+    ![jupyter notebook token](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/jupyter_notebook_token.PNG)
+    * Go to `localhost:8888` and input the token when asked for it.
 
 
 ### Storing Data Stream
