@@ -134,6 +134,10 @@ The detailed stages of the stream processing are demonstrated in the image below
         * `./kafka-topics.sh --create --topic ingest-product --bootstrap-server localhost:9092`
         * `./kafka-topics.sh --create --topic ingest-category --bootstrap-server localhost:9092`
         ![kafka topics_created](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/kafka_topics_created.PNG)
+- Test Kafka
+    * Setup local consumer by running the command from kafka shell `./kafka-console-consumer.sh --topic ingest-product --bootstrap-server localhost:9092`
+    *  While the consumer is waiting, go to file [main.py](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/API-Ingest/app/main.py) and make sure line 85 is un-commented
+    *  Make sure that boostrap server is pointing to *localhost:9093* in line 98, `producer = KafkaProducer(bootstrap_servers='localhost:9093',acks=1)`
 ### Processing Data Stream
 ### Storing Data Stream
 ## Visualizations
