@@ -56,7 +56,7 @@
 - The dataset is taken from the Kaggle. It includes the sales data for Amazon taken from Sept 2023.
    Dataset can be found [here](https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products/data?select=amazon_products.csv)  
     The Amazon dataset was chosen for the following factors:
-    * The dataset appears to be substantial, with over 1.4 million products
+    * The dataset appears to be substantial, with over 1.4 million products.
     * The dataset contains information about Amazon products, making it a real-world dataset with diverse attributes.
        Working with real-world data can help ensure that the data pipeline is robust and can handle the complexities and variations present in actual business datasets. 
 
@@ -68,7 +68,11 @@
 - Why did you choose them
 - How did you set them up
 
-## Connect
+## Connect  
+Connect functionality includes the .csv files downloaded from the Kaggle and placed in the repository folder */dataset/input*.    
+The python script */client/transformer.py* transforms the csv data into JSON format.  
+The JSON data is then posted to the API endpoint using the python script */client/api-client.py*
+
 ## Buffer
 ## Processing
 ## Storage
