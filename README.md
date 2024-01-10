@@ -140,6 +140,11 @@ The detailed stages of the stream processing are demonstrated in the image below
     *  Make sure that boostrap server is pointing to *localhost:9093* in line 98, `producer = KafkaProducer(bootstrap_servers='localhost:9093',acks=1)`
     *  Use the postman to post a JSON record of product and check if the consumer recieves it
       ![kafka_consumer_test](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/kafka_consumer_test.PNG)
+
+### Deploy API_ingest to Docker  
+- Add the files, [dockerfile](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/API-Ingest/dockerfile), and [requirements.txt](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/API-Ingest/requirements.txt), to instruct the build process of the dependencies to be installed and directories to be copied to docker container
+- Make sure that boostrap server in file [main.py](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/API-Ingest/app/main.py) is pointing to *kafka:9092* in line 98, `producer = KafkaProducer(bootstrap_servers='kafka:9092',acks=1)`.  
+  As this is required for the API-Ingest is moving from local windows cliet to the Docker network
     
 ### Processing Data Stream
 ### Storing Data Stream
