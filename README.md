@@ -122,7 +122,10 @@ The detailed stages of the stream processing are demonstrated in the image below
       ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/postman_category.PNG)
     
 
-### Buffer Data Stream
+### Buffer Data Stream  
+- Setup Kafka
+    * Kafka container is run by executing the command `docker-compose -f docker-compose-kafka.yml up`
+    * 
 ### Processing Data Stream
 ### Storing Data Stream
 ## Visualizations
