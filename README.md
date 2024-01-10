@@ -2,7 +2,7 @@
 # Stream Processing of Amazon Products Information to Identify Trends and Patterns 
 
 # Introduction & Goals
-- The primary goal of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.  
+- The objective of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.  
   The teck stack is the classic data engineering platform blueprint comprising of:
     * API connecting to the data source.
     * Buffer, to persist the data temporarily until they are ready to be processed
@@ -11,7 +11,12 @@
     * Vizualization, tools to create interactive reports where stakeholders can explore data, drill down into details, and gain insights by interacting with the visualizations
   
 
-- Orient this section on the Table of contents
+- To achieve the objective, Amazon dataset is taken from the open source platform Kaggle. The dataset comprises of two files, amazon categories and products.
+  Together, these files provide information regarding the sales, ratings, prices of the product based on their categories.
+  The goal of using this dataset is to:
+    * Analyse the distribution of price levels for products sold
+    * Analyse the distribution of categories for products sold
+    * Analyse the average price for each category
 - Write this like an executive summary
   - With what data are you working
   - What tools are you using
