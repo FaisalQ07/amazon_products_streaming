@@ -62,7 +62,7 @@
 
 # Used Tools
 - Explain which tools do you use and why
-- Below is the platform design capturing the various tools that build the data pipeline:
+- Below is the platform design capturing the various tools that build the data pipeline:  
   ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/platform_design.png)
 - How do they work (don't go too deep into details, but add links)
 - Why did you choose them
