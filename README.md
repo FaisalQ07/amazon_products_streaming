@@ -55,7 +55,7 @@
 # The Data Set
 - Explain the data set
 - The dataset is taken from the Kaggle. It includes the sales data for Amazon taken from Sept 2023.
-   Dataset can be found [here](https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products/data?select=amazon_products.csv)
+   Dataset can be found [here](https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products/data?select=amazon_products.csv)  
     The Amazon dataset was chosen for the following factors:
     * The dataset appears to be substantial, with over 1.4 million products
     * The dataset contains information about Amazon products, making it a real-world dataset with diverse attributes.
