@@ -114,7 +114,6 @@ The detailed stages of the stream processing are demonstrated in the image below
     - Upon successful running, the broswer should show a message `Hello World`
     ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/start_app.PNG)
     ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/start_app_browser.PNG)
-
   * Test API
     - Postman is used to send the JSON data records to the API endpoints
     - Test Product:
