@@ -55,7 +55,7 @@
 # The Data Set
 - Explain the data set
 - The dataset is taken from the Kaggle. It includes the sales data for Amazon taken from Sept 2023.
-- Dataset can be found [here](#https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products/data?select=amazon_products.csv)
+  Dataset can be found [here](https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products/data?select=amazon_products.csv)
 - Why did you choose it?
 - What do you like about it?
 - What is problematic?
