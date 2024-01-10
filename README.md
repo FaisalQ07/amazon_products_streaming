@@ -197,3 +197,7 @@ Add the link to your LinkedIn Profile
 # Appendix
 
 [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+***
+
+Inspired by <a href="https://github.com/team-data-science/document-streaming" target="_blank">document streaming project</a>, if you have any comments or questions, feel free to reach out
