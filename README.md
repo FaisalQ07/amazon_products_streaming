@@ -113,7 +113,14 @@ The detailed stages of the stream processing are demonstrated in the image below
     - Test the app by running the command `uvicorn main:app --reload` from the folder */API-ingest/app/*
     - Upon successful running, the broswer should show a message `Hello World`
     ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/start_app.PNG)
-    ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/start_app_browser.PNG) 
+    ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/start_app_browser.PNG)
+
+  * Test API
+    - Postman is used to send the JSON data records to the API endpoints
+    - Test Product:
+      ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/postman_product.PNG)  
+    - Test Category:
+      ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/postman_category.PNG)
     
 
 ### Buffer Data Stream
