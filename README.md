@@ -2,8 +2,7 @@
 # Stream Processing of Amazon Products information to identify trends and patterns 
 
 # Introduction & Goals
-- Introduce your project to the reader
-The primary goal of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.
+- The primary goal of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.
 The teck stack is the classic platform blueprint comprising of:
 ..* API connecting to the data source.
   
