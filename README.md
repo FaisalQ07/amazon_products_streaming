@@ -59,7 +59,7 @@
    The Amazon dataset was chosen for the following factors:
     * The dataset appears to be substantial, with over 1.4 million products
     * The dataset contains information about Amazon products, making it a real-world dataset with diverse attributes.
-       Working with real-world data can help ensure that your data pipeline is robust and can handle the complexities and variations present in actual business datasets. 
+       Working with real-world data can help ensure that the data pipeline is robust and can handle the complexities and variations present in actual business datasets. 
 - Why did you choose it?
 - What do you like about it?
 - What is problematic?
