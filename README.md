@@ -158,10 +158,15 @@ The detailed stages of the stream processing are demonstrated in the image below
     * Spark container is added to docker by running the command `docker-compose -f docker-compose-kafka-spark.yml up`
     * Once the container is running, go to view logs to get the token
     ![jupyter notebook token](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/jupyter_notebook_token.PNG)
-    * Go to `localhost:8888` and input the token when asked for it.
+    * Go to `localhost:8888` and input the token when asked for it. It should display two notebooks already present
 
 
-### Storing Data Stream
+### Storing Data Stream  
+- Setup Mongodb in docker
+    * Run `docker-compose -f docker-compose-kafka-spark-mongodb.yml up`
+    * Go to `localhost:8081` and enter the admin and password as configured in yml file, under mongo-express
+    * Create a Database called docstreaming and create a collection for category and product to store all the records from Spark streaming
+      ![mongodb_collection](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_database_collection.png)  
 ## Visualizations
 
 # Demo
