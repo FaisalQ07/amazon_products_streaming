@@ -17,7 +17,7 @@ for filepath in glob.iglob('../dataset/output/*.txt'):
     filename = tail.split('.')[0]
     #set starting id and ending id
     start = 1
-    end = 199
+    end = 250
     i=start
     while i < end:
         line = linecache.getline(filepath, i)
