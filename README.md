@@ -176,6 +176,8 @@ The detailed stages of the stream processing are demonstrated in the image below
     * Clean up MongoDB table if you sent test record earlier
     * Use [api-client.py](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/client/api-client.py) to send the most recent trending video records
     * Multiple batches with all the records are stored in MongoDB
+      ![multiple batches](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/message_batches.PNG)
+      ![product docs complete](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_product_docs.PNG)
 ## Visualizations
 
 # Demo
