@@ -78,7 +78,7 @@ The JSON data is then posted to the API endpoint using the python script */clien
 API-Ingest, the connect functionality, upon recieving the data from the client, triggers a kafka producer module to stream the data to the buffer.
 
 ## Buffer  
-Kafka, is used as the buffer for queuing the data.  
+Kafka is used as the buffer for queuing the data.  
 Kafka recieives the data from the files, product and category, every time it is posted to the API.  
 Two ingestion topics are created for the two JSON files, *ingest-product*, and *ingest-category*.
 
@@ -86,7 +86,9 @@ Two ingestion topics are created for the two JSON files, *ingest-product*, and *
 Spark Jupyter notebooks are using for stream processiong.  
 The processing notebook */ApacheSpark/stream-src-kafka-dst-mongodb.ipynb* reads the stream from the ingestion topics and writes the transformed data to the Mongodb document store.  
 
-## Storage
+## Storage  
+Mongodb is used as the choice of store for storing the JSON data. Two collections are created for the two input data files, category and product.
+
 ## Visualization
 
 # Pipelines
