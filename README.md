@@ -12,7 +12,7 @@
   
 
 - To achieve the objective, Amazon dataset is taken from the open source platform Kaggle. The dataset comprises of two files, amazon categories and products.
-  Together, these files provide information regarding the sales, ratings, prices of the product based on their categories.
+  Together, these files provide information regarding the sales, ratings, prices of the products based on their categories.
   The goal of using this dataset is to:
     * Analyse the distribution of price levels for products sold
     * Analyse the distribution of categories for products sold
