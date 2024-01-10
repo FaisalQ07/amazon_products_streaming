@@ -178,7 +178,15 @@ The detailed stages of the stream processing are demonstrated in the image below
     * Multiple batches with all the records are stored in MongoDB
       ![multiple batches](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/message_batches.PNG)
       ![product docs complete](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_product_docs.PNG)
-## Visualizations
+## Visualizations  
+- Setup Streamlit
+    * Once the records are successfully loaded in the database, it's time to build a dashboard for end users
+    * Run `pip install streamlit`, `pip install pymongo`
+    * Run [streamlitapp.py](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/Streamlit/streamlit_app.py), copy the [ARGUMENTS] it provides and run it, then you will get the url if the browser didn't pop up automatically
+    ![streamlit run](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/streamlit_run.PNG)
+    * The reports will be rendered once streamlit successfully runs on browser
+    ![streamlit visual](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/streamlit.PNG)
+
 
 # Demo
 - You could add a demo video here
