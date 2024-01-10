@@ -5,8 +5,12 @@
 - The primary goal of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.  
   The teck stack is the classic platform blueprint comprising of:
     * API connecting to the data source.
+    * Buffer, to persist the data temporarily until they are ready to be processed
+    * Processing framework, a distributed system for parallel data processing and fault tolerance
+    * Storage, to store the processed data
+    * Vizualization, tools to create interactive reports where stakeholders can explore data, drill down into details, and gain insights by interacting with the visualizations
   
-..* Connect - API to connect
+
 - Orient this section on the Table of contents
 - Write this like an executive summary
   - With what data are you working
