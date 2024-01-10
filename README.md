@@ -82,7 +82,9 @@ Kafka, is used as the buffer for queuing the data.
 Kafka recieives the data from the files, product and category, every time it is posted to the API.  
 Two ingestion topics are created for the two JSON files, *ingest-product*, and *ingest-category*.
 
-## Processing
+## Processing  
+Spark Jupyter notebooks are using for stream processiong.  
+The processing notebook */ApacheSpark/stream-src-kafka-dst-mongodb.ipynb* reads the stream from the ingestion topics and writes the transformed data to the Mongodb document store.
 ## Storage
 ## Visualization
 
