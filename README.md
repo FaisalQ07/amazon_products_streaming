@@ -106,10 +106,10 @@ The detailed stages of the stream processing are demonstrated in the image below
 
 ### API Creation  
   * Setup API
-    - FastAPI is used to create build the API using pthon package.
+    - FastAPI is used to create the API.
     - Implementation is contained in the file */API_ingest/app/main.py*
         * It creates the schema for the the two JSON files, Category and AmazonProduct
-        * Intilizes the app and add the post operation/routes for the posting the data to API endpoints, /Category and /AmazonProduct
+        * Initializes the app and adds the routes for posting the data to API endpoints, /Category and /AmazonProduct
     - Test the app by running the command `uvicorn main:app --reload` from the folder */API-ingest/app/*
     - Upon successful running, the broswer should show a message `Hello World`
     ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/start_app.PNG)
