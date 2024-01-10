@@ -17,6 +17,14 @@
     * Analyse the distribution of price levels for products sold
     * Analyse the distribution of categories for products sold
     * Analyse the average price for each category
+
+ - In order to process that data and provide the reports for analysis, following tools are used:
+   * [API-Ingest](#connect)
+   * [Kafka](#buffer)
+   * [Spark](#processing)
+   * [Mongodb](#storage)
+   * [Streamlit](#visualization) 
+  
 - Write this like an executive summary
   - With what data are you working
   - What tools are you using
