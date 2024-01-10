@@ -172,6 +172,10 @@ The detailed stages of the stream processing are demonstrated in the image below
     * Note code block 8 adds a dataframe transformation to set the output table in MongoDB
     * Execute the notebook then go to Postman and post a record. Check to see that it appeared in the MongoDB collection properly
       ![mongodb doc added](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/mongodb_coll_doc_added.PNG)
+- API Client Data Write
+    * Clean up MongoDB table if you sent test record earlier
+    * Use [api-client.py](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/client/api-client.py) to send the most recent trending video records
+    * Multiple batches with all the records are stored in MongoDB
 ## Visualizations
 
 # Demo
