@@ -99,7 +99,7 @@ It is an open-source Python library that supports several different charting lib
 
 ## Stream Processing  
 The detailed stages of the stream processing are demonstrated in the image below:  
-![alt text]()
+![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/stream_process.png)
 
 
 
