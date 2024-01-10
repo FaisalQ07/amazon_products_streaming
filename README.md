@@ -75,10 +75,12 @@ The python script */client/transformer.py* transforms the csv data into JSON for
 The JSON data is then posted to the API endpoint using the python script */client/api-client.py*
 
 ## Connect 
-API-Ingest, the connect functionality, upon recieving the data from the client, triggers a kafka module to stream the data to the buffer.
+API-Ingest, the connect functionality, upon recieving the data from the client, triggers a kafka producer module to stream the data to the buffer.
 
 ## Buffer  
-Kafka, is used as the buffer for queuing the data. Kafka recieives the data every time it is posted to the API.  
+Kafka, is used as the buffer for queuing the data.  
+Kafka recieives the data from the files, product and category, every time it is posted to the API.  
+Two ingestion topics are created for the two JSON files, *ingest-product*, and *ingest-category*.
 
 ## Processing
 ## Storage
