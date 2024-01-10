@@ -97,10 +97,12 @@ It is an open-source Python library that supports several different charting lib
 - Explain the pipelines for processing that you are building
 - Go through your development and add your source code
 
-## Stream Processing
+## Stream Processing  
+The detailed stages of the stream processing are demonstrated in the image below:  
+![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/platform_design%20-%20Stream%20Process.png)
+
 ### Storing Data Stream
 ### Processing Data Stream
-## Batch Processing
 ## Visualizations
 
 # Demo
