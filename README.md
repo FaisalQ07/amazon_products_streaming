@@ -45,9 +45,7 @@
   - [Stream Processing](#stream-processing)
     - [Storing Data Stream](#storing-data-stream)
     - [Processing Data Stream](#processing-data-stream)
-  - [Batch Processing](#batch-processing)
   - [Visualizations](#visualizations)
-- [Demo](#demo)
 - [Conclusion](#conclusion)
 - [Follow Me On](#follow-me-on)
 - [Appendix](#appendix)
@@ -186,11 +184,6 @@ The detailed stages of the stream processing are demonstrated in the image below
     ![streamlit run](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/streamlit_run.PNG)
     * The reports will be rendered once streamlit successfully runs on browser
     ![streamlit visual](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/streamlit.PNG)
-
-
-# Demo
-- You could add a demo video here
-- Or link to your presentation video of the project
 
 # Conclusion
 Write a comprehensive conclusion.
