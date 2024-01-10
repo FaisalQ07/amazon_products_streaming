@@ -147,8 +147,14 @@ The detailed stages of the stream processing are demonstrated in the image below
   As this is required for the API-Ingest is moving from local windows client to the Docker network
 - Create docker image for API_ingest by running command, `docker build -t api-ingest .`
 - Once completed, use command `docker images` to see if the image is added to the list of docker images
+- Start the kafka container
+- Check the network for the Kafka container (in my case it's amazon-products-streaming_default)
+  ![kafka_network](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/kafka_network.png)
+- Open a new terminal and execute, `docker run --rm --network amazon-products-streaming_default --name my-api-ingest -p 80:80 api-ingest`
     
-### Processing Data Stream
+### Processing Data Stream  
+
+
 ### Storing Data Stream
 ## Visualizations
 
