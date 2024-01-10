@@ -89,7 +89,9 @@ The processing notebook */ApacheSpark/stream-src-kafka-dst-mongodb.ipynb* reads 
 ## Storage  
 Mongodb is used as the choice of store for storing the JSON data. Two collections are created for the two input data files, category and product.
 
-## Visualization
+## Visualization  
+Streamlit is used for visualizing the reports.  
+It is an open-source Python library that supports several different charting libraries. 
 
 # Pipelines
 - Explain the pipelines for processing that you are building
