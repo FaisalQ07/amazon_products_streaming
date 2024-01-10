@@ -35,6 +35,7 @@
 
 - [The Data Set](#the-data-set)
 - [Used Tools](#used-tools)
+  - [Client](#client)
   - [Connect](#connect)
   - [Buffer](#buffer)
   - [Processing](#processing)
@@ -68,12 +69,13 @@
 - Why did you choose them
 - How did you set them up
 
-## Connect  
-Connect functionality includes the .csv files downloaded from the Kaggle and placed in the repository folder */dataset/input*.    
+## Client  
+Client functionality includes the .csv files downloaded from the Kaggle and placed in the repository folder */dataset/input*.    
 The python script */client/transformer.py* transforms the csv data into JSON format.  
 The JSON data is then posted to the API endpoint using the python script */client/api-client.py*
 
-## Buffer
+## Connect  
+## Buffer  
 ## Processing
 ## Storage
 ## Visualization
