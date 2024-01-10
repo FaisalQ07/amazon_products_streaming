@@ -151,6 +151,7 @@ The detailed stages of the stream processing are demonstrated in the image below
 - Check the network for the Kafka container (in my case it's amazon-products-streaming_default)
   ![kafka_network](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/kafka_network.png)  
 - Open a new terminal and execute, `docker run --rm --network amazon-products-streaming_default --name my-api-ingest -p 80:80 api-ingest`
+- Once the API, API-Ingest is started in docker, test the kafka and API as was done in step __Buffer Data Stream__  
     
 ### Processing Data Stream  
 
