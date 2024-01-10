@@ -3,7 +3,7 @@
 
 # Introduction & Goals
 - The primary goal of this project is to build a data processing pipeline that could utillize the modern tech stack for data engineering.  
-  The teck stack is the classic platform blueprint comprising of:
+  The teck stack is the classic data engineering platform blueprint comprising of:
     * API connecting to the data source.
     * Buffer, to persist the data temporarily until they are ready to be processed
     * Processing framework, a distributed system for parallel data processing and fault tolerance
