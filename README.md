@@ -8,7 +8,7 @@
     * Buffer, to persist the data temporarily until they are ready to be processed
     * Processing framework, a distributed system for parallel data processing and fault tolerance
     * Storage, to store the processed data
-    * Vizualization, tools to create interactive reports where stakeholders can explore data, drill down into details, and gain insights by interacting with the visualizations
+    * Vizualization tool, to create interactive reports where stakeholders can explore data, drill down into details, and gain insights by interacting with the visualizations
   
 
 - To achieve the objective, Amazon dataset is taken from the open source platform Kaggle. The dataset comprises of two files, amazon categories and products.
