@@ -74,7 +74,9 @@ Client functionality includes the .csv files downloaded from the Kaggle and plac
 The python script */client/transformer.py* transforms the csv data into JSON format.  
 The JSON data is then posted to the API endpoint using the python script */client/api-client.py*
 
-## Connect  
+## Connect 
+API-Ingest, the connect functionality, upon recieving the data from the client, triggers a kafka module to stream the data to the buffer.
+
 ## Buffer  
 ## Processing
 ## Storage
