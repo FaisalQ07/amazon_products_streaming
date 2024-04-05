@@ -24,12 +24,6 @@
    * [Spark](#processing)
    * [Mongodb](#storage)
    * [Streamlit](#visualization) 
-  
-- Write this like an executive summary
-  - With what data are you working
-  - What tools are you using
-  - What are you doing with these tools
-  - Once you are finished add the conclusion here as well
 
 # Contents
 
