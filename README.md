@@ -54,12 +54,8 @@
        Working with real-world data can help ensure that the data pipeline is robust and can handle the complexities and variations present in actual business datasets. 
 
 # Used Tools
-- Explain which tools do you use and why
 - Below is the platform design capturing the various tools that build the data pipeline:
  ![alt text](https://github.com/FaisalQ07/amazon_products_streaming/blob/main/images/platform_design.png)
-- How do they work (don't go too deep into details, but add links)
-- Why did you choose them
-- How did you set them up
 
 ## Client  
 Client functionality includes the .csv files downloaded from the Kaggle and placed in the repository folder */dataset/input*.    
